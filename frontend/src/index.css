@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap");
+@import "tailwindcss";
+
+/*
+  Design tokens for AI Food Concierge.
+
+  Palette is built around the domain (Chennai/Indian food discovery) rather
+  than a generic SaaS default: warm paper canvas, deep ink surfaces, and a
+  chili/turmeric/curry accent trio instead of the common cream+terracotta
+  AI-generated look.
+*/
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --color-ink: #211d18;
+  --color-ink-soft: #34302a;
+  --color-paper: #f6f1e6;
+  --color-paper-raised: #fffdf8;
+  --color-line: #ded4c0;
+
+  --color-chili: #c1440e;
+  --color-chili-soft: #f0d9c9;
+  --color-turmeric: #c98a04;
+  --color-turmeric-soft: #f3e3b8;
+  --color-curry: #45613f;
+  --color-curry-soft: #dde6d5;
+  --color-plum: #5c3a52;
+  --color-plum-soft: #e9dde5;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--color-chili-soft);
+}
+
+/* Visible keyboard focus everywhere -- accessibility floor. */
+:focus-visible {
+  outline: 2px solid var(--color-chili);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Thin, warm scrollbars instead of default chrome. */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

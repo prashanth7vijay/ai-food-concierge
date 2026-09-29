@@ -1,0 +1,28 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg[binary]==3.2.3
+redis==5.2.1
+langgraph==0.2.62
+langchain-core==0.3.28
+httpx==0.28.1
+tenacity==9.0.0
+numpy==1.26.4
+python-dotenv==1.0.1
+structlog==24.4.0
+
+# pgvector is optional at runtime (only needed against a real Postgres
+# instance); the app falls back to a JSON-based similarity search on
+# SQLite so contributors can develop without installing Postgres.
+pgvector==0.3.6
+
+# --- dev / test ---
+pytest==8.3.4
+pytest-asyncio==0.25.0
+pytest-cov==6.0.0
+ruff==0.8.4
+black==24.10.0
+mypy==1.14.0

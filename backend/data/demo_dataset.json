@@ -1,0 +1,89 @@
+{
+  "_dataset_notice": "Fully synthetic demo data created for this portfolio project. No data was scraped, reverse-engineered, or sourced from Swiggy, Zomato, or any live food-delivery platform. Restaurant and dish names are fictional.",
+  "restaurants": [
+    {
+      "name": "Saffron Leaf",
+      "cuisine": "North Indian",
+      "area": "Anna Nagar",
+      "rating": 4.5,
+      "is_pure_veg": true,
+      "price_band": "mid",
+      "menu": [
+        {"name": "Paneer Tikka Masala", "description": "Grilled paneer cubes in a rich tomato-cashew gravy.", "price": 280, "is_vegetarian": true, "spice_level": "spicy", "tags": "paneer,curry,north indian", "rating": 4.6},
+        {"name": "Dal Makhani", "description": "Slow-cooked black lentils finished with cream and butter.", "price": 220, "is_vegetarian": true, "spice_level": "mild", "tags": "dal,comforting,north indian", "rating": 4.4},
+        {"name": "Palak Paneer", "description": "Paneer in a smooth spinach gravy, lightly spiced.", "price": 260, "is_vegetarian": true, "spice_level": "medium", "tags": "paneer,curry,healthy", "rating": 4.3},
+        {"name": "Butter Naan", "description": "Soft leavened flatbread brushed with butter.", "price": 60, "is_vegetarian": true, "spice_level": "mild", "tags": "bread,side", "rating": 4.2}
+      ]
+    },
+    {
+      "name": "Chettinad Express",
+      "cuisine": "South Indian",
+      "area": "T Nagar",
+      "rating": 4.6,
+      "is_pure_veg": false,
+      "price_band": "budget",
+      "menu": [
+        {"name": "Chicken Chettinad", "description": "Fiery chicken curry with roasted spices and coconut.", "price": 320, "is_vegetarian": false, "spice_level": "spicy", "tags": "chicken,curry,filling", "rating": 4.7},
+        {"name": "Masala Dosa", "description": "Crisp rice-and-lentil crepe filled with spiced potato.", "price": 120, "is_vegetarian": true, "spice_level": "mild", "tags": "breakfast,light,south indian", "rating": 4.5},
+        {"name": "Rasam", "description": "Tangy, peppery tamarind soup, served warm.", "price": 80, "is_vegetarian": true, "spice_level": "medium", "tags": "soup,light,comforting", "rating": 4.3},
+        {"name": "Curd Rice", "description": "Cooling rice mixed with yogurt and tempered spices.", "price": 100, "is_vegetarian": true, "spice_level": "mild", "tags": "rice,light,cooling", "rating": 4.1}
+      ]
+    },
+    {
+      "name": "Green Bowl Kitchen",
+      "cuisine": "Continental",
+      "area": "Indiranagar",
+      "rating": 4.4,
+      "is_pure_veg": false,
+      "price_band": "mid",
+      "menu": [
+        {"name": "Grilled Veg Salad Bowl", "description": "Mixed greens, grilled zucchini and bell peppers, lemon dressing.", "price": 240, "is_vegetarian": true, "spice_level": "mild", "tags": "salad,light,healthy", "rating": 4.5},
+        {"name": "Herb Grilled Chicken", "description": "Grilled chicken breast with roasted vegetables.", "price": 350, "is_vegetarian": false, "spice_level": "mild", "tags": "chicken,grilled,healthy", "rating": 4.4},
+        {"name": "Creamy Mushroom Soup", "description": "Rich mushroom soup finished with cream.", "price": 180, "is_vegetarian": true, "spice_level": "mild", "tags": "soup,comforting", "rating": 4.2},
+        {"name": "Quinoa Sprouts Salad", "description": "Quinoa, sprouts, cucumber, and citrus dressing.", "price": 210, "is_vegetarian": true, "spice_level": "mild", "tags": "salad,healthy,light", "rating": 4.3}
+      ]
+    },
+    {
+      "name": "Biryani Junction",
+      "cuisine": "Hyderabadi",
+      "area": "Velachery",
+      "rating": 4.5,
+      "is_pure_veg": false,
+      "price_band": "mid",
+      "menu": [
+        {"name": "Chicken Dum Biryani", "description": "Slow-cooked basmati rice layered with spiced chicken.", "price": 260, "is_vegetarian": false, "spice_level": "spicy", "tags": "biryani,rice,filling,dinner", "rating": 4.7},
+        {"name": "Veg Dum Biryani", "description": "Basmati rice layered with spiced mixed vegetables.", "price": 220, "is_vegetarian": true, "spice_level": "medium", "tags": "biryani,rice,filling,dinner", "rating": 4.4},
+        {"name": "Mirchi Ka Salan", "description": "Tangy peanut-sesame gravy with green chillies.", "price": 140, "is_vegetarian": true, "spice_level": "spicy", "tags": "curry,side", "rating": 4.2},
+        {"name": "Double Ka Meetha", "description": "Traditional bread pudding dessert soaked in milk.", "price": 110, "is_vegetarian": true, "spice_level": "mild", "tags": "dessert", "rating": 4.3}
+      ]
+    },
+    {
+      "name": "Wok This Way",
+      "cuisine": "Chinese",
+      "area": "Nungambakkam",
+      "rating": 4.2,
+      "is_pure_veg": false,
+      "price_band": "budget",
+      "menu": [
+        {"name": "Veg Manchurian", "description": "Fried vegetable dumplings tossed in a spicy soy-garlic sauce.", "price": 190, "is_vegetarian": true, "spice_level": "spicy", "tags": "chinese,fried,heavy", "rating": 4.1},
+        {"name": "Clear Vegetable Soup", "description": "Light broth with julienned vegetables.", "price": 130, "is_vegetarian": true, "spice_level": "mild", "tags": "soup,light,clear broth", "rating": 4.0},
+        {"name": "Chilli Paneer", "description": "Crispy paneer tossed with onions, peppers and chilli sauce.", "price": 240, "is_vegetarian": true, "spice_level": "spicy", "tags": "paneer,chinese,fried", "rating": 4.3},
+        {"name": "Chicken Fried Rice", "description": "Wok-tossed rice with egg, chicken, and spring onion.", "price": 230, "is_vegetarian": false, "spice_level": "medium", "tags": "rice,chinese,filling", "rating": 4.2}
+      ]
+    },
+    {
+      "name": "Tiffin Corner",
+      "cuisine": "South Indian",
+      "area": "Adyar",
+      "rating": 4.3,
+      "is_pure_veg": true,
+      "price_band": "budget",
+      "menu": [
+        {"name": "Idli Sambar", "description": "Steamed rice cakes served with lentil-vegetable stew.", "price": 90, "is_vegetarian": true, "spice_level": "mild", "tags": "breakfast,steamed,light", "rating": 4.4},
+        {"name": "Ven Pongal", "description": "Comforting rice-lentil porridge tempered with pepper and cumin.", "price": 100, "is_vegetarian": true, "spice_level": "mild", "tags": "breakfast,comforting,light", "rating": 4.2},
+        {"name": "Poori Masala", "description": "Fried puffed bread with spiced potato curry.", "price": 110, "is_vegetarian": true, "spice_level": "medium", "tags": "breakfast,fried,heavy", "rating": 4.1},
+        {"name": "Filter Coffee", "description": "South Indian style decoction coffee with milk.", "price": 40, "is_vegetarian": true, "spice_level": "mild", "tags": "beverage", "rating": 4.6}
+      ]
+    }
+  ]
+}
